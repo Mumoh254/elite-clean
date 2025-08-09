@@ -810,7 +810,7 @@ const MainPage = () => {
       name: 'Welt  Tallis',
       position: 'Homeowner',
       quote: 'EliteClean transformed my home! Their team was professional, efficient, and left every corner sparkling. Highly recommend their house cleaning services.',
-      image: '../../public/images/peter.jpg',
+    image: './images/peter.jpg',
       rating: 5,
     },
     {
@@ -818,7 +818,7 @@ const MainPage = () => {
       name: 'Welt Tallis',
       position: 'Office Manager',
       quote: 'Our office has never been cleaner. EliteClean handles everything from daily sanitation to specialized window cleaning with exceptional quality.',
-      image: '../../public/images/peter.jpg',
+      image: './images/peter.jpg',
       rating: 5,
     },
     {
@@ -826,7 +826,7 @@ const MainPage = () => {
       name: 'Peter  Mumo',
       position: 'Property Manager',
       quote: 'The floor care and maintenance from EliteClean is outstanding. Our floors look brand new, and their team is always reliable.',
-    image: '../../public/images/peter.jpg',
+    image: './images/peter.jpg',
       rating: 5,
     },
     {
@@ -975,7 +975,7 @@ const MainPage = () => {
         .bg-secondary { background-color: #ffd31d; }
         
         .hero-section {
-          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../../public/images/hero.png');
+          background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('./images/hero.png');
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
